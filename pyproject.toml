@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dicetelegrambot"
+version = "0.1.0"
+description = ""
+authors = ["maximkovalev <mkovalevhse@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+telebot = "^0.0.4"
+pyTelegramBotAPI = "^4.6.0"
+SQLAlchemy = "^1.4.39"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
